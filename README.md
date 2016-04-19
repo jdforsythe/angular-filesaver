@@ -20,14 +20,16 @@ angular.module('yourApp', ['FileSaver']);
 **Dependencies**
 
 1. angular
-2. filesaver.js (https://github.com/eligrey/FileSaver.js or bower package file-saver.js)
+2. filesaver.js (https://github.com/eligrey/FileSaver.js or `bower install file-saver.js`)
+3. Blob.js (https://github.eligrey/Blob.js or `bower install blob`) - optional, for legacy browser support
 
 
 Refer all dependencies in your page in the proper order
 
 ```html
 <script src="./bower_components/angular/angular.min.js" type="text/javascript"></script>
-<script src="./bower_components/file-saver.js/FileSaver.min.js" type="text/javascript"></script>
+<script src="./bower_components/blob/Blob.js" type="text/javascript"></script>
+<script src="./bower_components/file-saver.js/FileSaver.js" type="text/javascript"></script>
 <script src="./bower_components/angular-filesaver/angular-filesaver.js" type="text/javascript"></script>
 ```
 
